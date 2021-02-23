@@ -16,12 +16,13 @@ const IndexPage = () => {
           type='image/x-icon'
         />
       </Head>
+
       <header>
         <Navbar />
       </header>
+
       <Main />
 
-      {/* Services */}
       <section>
         <Services />
       </section>
