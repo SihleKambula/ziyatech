@@ -1,0 +1,42 @@
+.container {
+  background-color: #ffff;
+  padding: 20px 30px;
+  border-radius: 20px;
+  color: rgb(0, 0, 109);
+}
+
+.img_container {
+  width: 100%;
+
+  img {
+    width: 100%;
+  }
+}
+
+.detail {
+  h3 {
+    font-size: 2rem;
+    margin: 0;
+  }
+  p {
+    font-size: 1.2rem;
+  }
+
+  button {
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: 1px solid red;
+    color: red;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .detail {
+    h3 {
+      font-size: 1.2rem;
+    }
+    p {
+      font-size: 1rem;
+    }
+  }
+}

@@ -1,5 +1,7 @@
 import Navbar from "../components/Navbar";
 import Head from "next/head";
+import Main from "../components/Main";
+import Services from "../components/Services";
 
 //Component
 
@@ -17,6 +19,12 @@ const IndexPage = () => {
       <header>
         <Navbar />
       </header>
+      <Main />
+
+      {/* Services */}
+      <section>
+        <Services />
+      </section>
     </>
   );
 };
