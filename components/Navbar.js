@@ -29,11 +29,11 @@ const Navbar = () => {
           <Link href='/'>home</Link>
         </li>
         <li className={style.nav_links}>
-          <Link href='/'>services</Link>
+          <a href='#services'>services</a>
         </li>
         <li className={style.nav_links}>
           <button>
-            <Link href='/'>contact</Link>
+            <a href='#contact'>contact</a>
           </button>
         </li>
       </ul>

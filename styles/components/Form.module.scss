@@ -3,7 +3,7 @@
   height: 80vh;
 
   text-align: center;
-  color: red;
+  color: #ffff;
   overflow-y: hidden;
 
   h1 {
@@ -19,9 +19,9 @@
   padding: 10px;
   margin: 20px auto;
   text-align: center;
-  background-color: #ffff;
+  background-color: red;
   border-radius: 10px;
-  box-shadow: -1px 1px 12px red;
+  // box-shadow: -1px 1px 12px red;
 
   p {
     font-size: 1.3rem;
@@ -38,9 +38,9 @@
   width: 120px;
   margin: 0 auto;
   padding: 10px 20px;
-  background-color: red;
+  background-color: #fff;
   border-radius: 5px;
-  color: #ffff;
+  color: red;
   border: 1px solid red;
 }
 

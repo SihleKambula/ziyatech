@@ -3,6 +3,7 @@ import Head from "next/head";
 import Main from "../components/Main";
 import Services from "../components/Services";
 import Form from "../components/Form";
+import Footer from "../components/Footer";
 
 //Component
 
@@ -24,13 +25,15 @@ const IndexPage = () => {
 
       <Main />
 
-      <section>
+      <section id='services'>
         <Services />
       </section>
 
-      <section>
+      <section id='contact'>
         <Form />
       </section>
+
+      <Footer />
     </>
   );
 };
