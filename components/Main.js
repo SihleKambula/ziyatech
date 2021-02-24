@@ -1,6 +1,5 @@
 import style from "../styles/components/Main.module.scss";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
+import SocialIcons from "./SocialIcons";
 
 const Main = () => {
   return (
@@ -15,9 +14,7 @@ const Main = () => {
         </p>
         <button className={style.btn}>Get Start</button>
         <div className={style.social_media}>
-          <a href='#'>
-            <FontAwesomeIcon icon={faWhatsapp} />
-          </a>
+          <SocialIcons />
         </div>
       </div>
       <div className={style.img_container}>

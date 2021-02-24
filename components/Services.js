@@ -10,6 +10,7 @@ const Services = () => {
         {services.map((service) => {
           return (
             <ServiceCard
+              key={service.img}
               imgUrl={service.img}
               heading={service.heading}
               paragraph={service.paragraph}
