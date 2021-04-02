@@ -7,10 +7,11 @@ const Main = () => {
       <div className={style.about_business}>
         <h1>We Bring the best</h1>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
-          quaerat animi rem, minima quam beatae odit doloremque tempore
-          necessitatibus veniam reiciendis error, maiores aliquid, a aliquam
-          corporis. Obcaecati, laborum autem.
+          In an age where digital technology has advanced more rapidly than most
+          innovations in history it is impartial that businesses are aware and
+          brought up to speed. Ziyatech was therefore born to help with the
+          elevation, digitalisation and support of small businesses at
+          affordable rates.
         </p>
         <button className={style.btn}>Get Start</button>
         <div className={style.social_media}>
