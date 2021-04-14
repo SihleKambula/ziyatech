@@ -7,9 +7,15 @@ const ServiceCard = ({ imgUrl, heading, paragraph }) => {
         <img src={imgUrl} alt={imgUrl} />
       </div>
       <div className={style.detail}>
-        <h3>{heading}</h3>
-        <p>{paragraph}</p>
-        <button>Purchase</button>
+        <div>
+          <h3>{heading}</h3>
+          <p>{paragraph}</p>
+        </div>
+        <button>
+          <a href={`https://www.youradsl.co.za/loginbox.php`} target='blank'>
+            More Info
+          </a>
+        </button>
       </div>
     </div>
   );

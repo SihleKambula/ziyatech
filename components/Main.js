@@ -13,7 +13,9 @@ const Main = () => {
           elevation, digitalisation and support of small businesses at
           affordable rates.
         </p>
-        <button className={style.btn}>Get Start</button>
+        <button className={style.btn}>
+          <a href='#services'>Get Start</a>
+        </button>
         <div className={style.social_media}>
           <SocialIcons />
         </div>
