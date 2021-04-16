@@ -14,6 +14,8 @@ const Services = () => {
               imgUrl={service.img}
               heading={service.heading}
               paragraph={service.paragraph}
+              btnText={service.btnText}
+              urlLink={service.urlLink}
             />
           );
         })}
