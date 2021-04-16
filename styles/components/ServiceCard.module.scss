@@ -39,6 +39,17 @@
   }
 }
 
+@media screen and (max-width: 768px) {
+  .detail {
+    h3 {
+      font-size: 1.2rem;
+    }
+    p {
+      font-size: 1rem;
+    }
+  }
+}
+
 @media screen and (max-width: 600px) {
   .detail {
     h3 {
