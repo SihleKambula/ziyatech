@@ -14,7 +14,7 @@ const Main = () => {
           affordable rates.
         </p>
         <button className={style.btn}>
-          <a href='#services'>Get Start</a>
+          <a href='#services'>Let's Get You Started</a>
         </button>
         <div className={style.social_media}>
           <SocialIcons />

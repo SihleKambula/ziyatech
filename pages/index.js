@@ -12,6 +12,10 @@ const IndexPage = () => {
     <>
       <Head>
         <title>Ziyatech</title>
+        <meta
+          name='keywords'
+          content='IT Support Business Management SARS Filing'
+        />
         <link
           rel='shortcut icon'
           href='assets/Ziyatech-sm.png'
