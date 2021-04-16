@@ -15,6 +15,7 @@
 
   h3 {
     font-weight: bold;
+    margin: 5px;
   }
 
   a {
@@ -29,10 +30,18 @@
     align-items: center;
   }
   p {
-    margin: 0;
+    margin: 0 0 0 5px;
   }
   svg {
     color: #fff;
     width: 20px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .business_details {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
   }
 }
