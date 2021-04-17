@@ -16,7 +16,7 @@ const Main = () => {
         initial='hidden'
         animate='show'
         variants={variants}
-        transition={{ ease: "easeIn", type: "spring" }}
+        transition={{ duration: 1.5, ease: "easeIn", type: "spring" }}
         className={style.about_business}
       >
         <h1>We Bring the best</h1>
@@ -38,7 +38,7 @@ const Main = () => {
         initial='hidden'
         animate='show'
         variants={image}
-        transition={{ ease: "easeIn", type: "spring" }}
+        transition={{ duration: 1.5, ease: "easeIn", type: "spring" }}
         className={style.img_container}
       >
         <img src='assets/Asset 1.svg' alt='main image' />
