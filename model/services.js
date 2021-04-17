@@ -19,7 +19,7 @@ const services = [
     heading: "Internet Services",
     paragraph: "Sale of data bundles for the major mobile service providers.",
     btnText: "Purchase Options",
-    urlLink: "#",
+    urlLink: "https://www.youradsl.co.za/loginbox.php",
   },
 ];
 
