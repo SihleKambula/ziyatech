@@ -1,7 +1,7 @@
 import style from "../styles/components/Footer.module.scss";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faWhatsapp, faFacebook } from "@fortawesome/free-brands-svg-icons";
-
+import Image from "next/image";
 const Footer = () => {
   return (
     <footer className={style.footer}>
@@ -46,6 +46,30 @@ const Footer = () => {
             Industry in terms of section 223 of the Companies Act,
             <br /> 2008 (Act No. 71 of 2008).
           </p>
+        </div>
+        <div className='partnership'>
+          <h3>Partnerships</h3>
+          <a href='https://racm.co.za' target='blank'>
+            <Image
+              src='/assets/racm_logo.webp'
+              alt='racm'
+              width={50}
+              height={50}
+              layout='responsive'
+            />
+          </a>
+
+          <br />
+          <a href='https://sihlekambula.com' target='blank'>
+            <Image
+              src='/assets/k_innovation.webp'
+              alt='k innovation'
+              width={100}
+              height={20}
+              quality={100}
+              layout='responsive'
+            />
+          </a>
         </div>
       </div>
       <p>©️Ziyatech 2021</p>
