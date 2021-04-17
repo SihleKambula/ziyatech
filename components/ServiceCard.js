@@ -1,10 +1,17 @@
 import style from "../styles/components/ServiceCard.module.scss";
-
+import Image from "next/image";
 const ServiceCard = ({ imgUrl, heading, paragraph, btnText, urlLink }) => {
   return (
     <div className={style.container}>
       <div className={style.img_container}>
-        <img src={imgUrl} alt={imgUrl} />
+        <Image
+          src={imgUrl}
+          alt={imgUrl}
+          width={300}
+          height={250}
+          quality={100}
+          layout='responsive'
+        />
       </div>
       <div className={style.detail}>
         <div>

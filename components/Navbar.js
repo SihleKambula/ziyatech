@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { useState } from "react";
 import style from "../styles/components/Navbar.module.scss";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -14,7 +15,14 @@ const Navbar = () => {
   return (
     <nav className={style.nav}>
       <div className={style.logo}>
-        <img src='assets/Ziyatech-sm.png' alt='ziyatech_logo' />
+        <Image
+          src='/assets/Ziyatech-sm.webp'
+          width={100}
+          height={80}
+          quality={100}
+          layout='responsive'
+        />
+        {/* <img src='assets/Ziyatech-sm.webp' alt='ziyatech' /> */}
       </div>
       <div className={style.menu_btn} onClick={handleMenu}>
         <FontAwesomeIcon icon={show ? faTimes : faBars} />
