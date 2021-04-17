@@ -4,10 +4,14 @@ import Main from "../components/Main";
 import Services from "../components/Services";
 import Form from "../components/Form";
 import Footer from "../components/Footer";
-
+import { motion } from "framer-motion";
 //Component
 
 const IndexPage = () => {
+  const variants = {
+    hidden: { opacity: 0 },
+    show: { opacity: 1 },
+  };
   return (
     <>
       <Head>
@@ -18,14 +22,19 @@ const IndexPage = () => {
         />
         <link
           rel='shortcut icon'
-          href='assets/Ziyatech-sm.png'
+          href='assets/Ziyatech-sm.webp'
           type='image/x-icon'
         />
       </Head>
 
-      <header>
+      <motion.header
+        initial='hidden'
+        animate='show'
+        transition={{ duration: 1 }}
+        variants={variants}
+      >
         <Navbar />
-      </header>
+      </motion.header>
 
       <Main />
 
