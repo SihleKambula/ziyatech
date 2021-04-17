@@ -1,7 +1,6 @@
 import style from "../styles/components/Main.module.scss";
 import SocialIcons from "./SocialIcons";
 import { motion } from "framer-motion";
-import Image from "next/image";
 const Main = () => {
   const variants = {
     hidden: { x: -100 },
@@ -42,13 +41,7 @@ const Main = () => {
         transition={{ ease: "easeIn", type: "spring" }}
         className={style.img_container}
       >
-        <Image
-          layout='responsive'
-          width={200}
-          height={150}
-          src='/assets/Asset 1.svg'
-          alt='main image'
-        />
+        <img src='assets/Asset 1.svg' alt='main image' />
       </motion.div>
     </main>
   );
