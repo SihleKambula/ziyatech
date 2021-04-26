@@ -10,7 +10,8 @@
 }
 
 .logo {
-  width: 160px;
+  width: 150px;
+  padding: 0;
 
   img {
     width: 100%;
@@ -64,6 +65,9 @@
       color: red;
       transition: all ease 0.5s;
     }
+  }
+  .logo {
+    width: 100px;
   }
 
   .show {
