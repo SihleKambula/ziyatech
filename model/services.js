@@ -4,7 +4,7 @@ const services = [
     heading: "Finance",
     paragraph: "e-Services (SARS and uFiling)",
     btnText: "Click Here To Begin",
-    urlLink: "https://form.jotform.com/202595787914571",
+    urlLink: "https://forms.gle/JpuQpH6XUBCfLoip9",
   },
   {
     img: "/assets/img2.webp",
