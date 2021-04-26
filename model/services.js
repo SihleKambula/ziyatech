@@ -12,7 +12,7 @@ const services = [
     paragraph:
       "SME Support. Digitalization(Website creation, email configuration, e.commerce, virtual stores, Search Engine Optimization and copyrights) ",
     btnText: "Click Here To Begin",
-    urlLink: "https://form.jotform.com/202595787914571",
+    urlLink: "https://forms.gle/ecQbpv7L8nwV2PYaA",
   },
   {
     img: "/assets/img3.webp",
