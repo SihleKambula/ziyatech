@@ -5,6 +5,7 @@ import Services from "../components/Services";
 import Form from "../components/Form";
 import Footer from "../components/Footer";
 import { motion } from "framer-motion";
+import Watermark from "../components/Watermark";
 //Component
 
 const IndexPage = () => {

@@ -1,5 +1,6 @@
 import style from "../styles/components/Form.module.scss";
 import SocialIcons from "./SocialIcons";
+import Watermark from "./Watermark";
 
 const Form = () => {
   return (
@@ -17,6 +18,9 @@ const Form = () => {
         </a>
         <SocialIcons />
       </div>
+      <section>
+        <Watermark />
+      </section>
     </div>
   );
 };
