@@ -49,6 +49,11 @@ const IndexPage = () => {
       </section>
 
       <section id='contact'>
+        <script
+          data-ad-client='ca-pub-7306326090035759'
+          async
+          src='https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js'
+        ></script>
         <Form />
       </section>
 
