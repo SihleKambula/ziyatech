@@ -5,7 +5,7 @@ import Services from "../components/Services";
 import Form from "../components/Form";
 import Footer from "../components/Footer";
 import { motion } from "framer-motion";
-import Watermark from "../components/Watermark";
+
 //Component
 
 const IndexPage = () => {
@@ -21,6 +21,11 @@ const IndexPage = () => {
           name='keywords'
           content='IT Support Business Management SARS Filing'
         />
+        <script
+          data-ad-client='ca-pub-7306326090035759'
+          async
+          src='https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js'
+        ></script>
         <link
           rel='shortcut icon'
           href='assets/Ziyatech-sm.webp'
